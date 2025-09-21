@@ -48,7 +48,7 @@ Follow these steps to integrate the new model:
    ```csharp
    namespace DynamicMappingSystem.Models;
 
-   public record Room(Guid id,int RoomNr, int Capacity);
+   public record Room(Guid id, int RoomNr, int Capacity);
 
 1. **Define the Partner Model(s)**
     - Add the equivalent representation in the appropriate partner namespace/project.
