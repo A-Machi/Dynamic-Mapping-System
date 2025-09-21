@@ -1,0 +1,10 @@
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\bin\Debug\net7.0\DynamicMappingSystem.Core.deps.json
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\bin\Debug\net7.0\DynamicMappingSystem.Core.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\bin\Debug\net7.0\DynamicMappingSystem.Core.pdb
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\obj\Debug\net7.0\DynamicMappingSystem.Core.csproj.AssemblyReference.cache
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\obj\Debug\net7.0\DynamicMappingSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\obj\Debug\net7.0\DynamicMappingSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\obj\Debug\net7.0\DynamicMappingSystem.Core.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\obj\Debug\net7.0\refint\DynamicMappingSystem.Core.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\obj\Debug\net7.0\DynamicMappingSystem.Core.pdb
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Core\obj\Debug\net7.0\ref\DynamicMappingSystem.Core.dll

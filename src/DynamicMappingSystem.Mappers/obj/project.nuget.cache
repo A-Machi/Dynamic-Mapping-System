@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Ar8U2KfQp5xcYgEkrVh+0cYc3Bvpi92OgwfploFCEpHm9XP1meukPNKfqYfMLSRbTsC+0lyYyip7vEwSg+kBw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\DynamicMappingSystem.Mappers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ayman\\.nuget\\packages\\fluentassertions\\8.6.0\\fluentassertions.8.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

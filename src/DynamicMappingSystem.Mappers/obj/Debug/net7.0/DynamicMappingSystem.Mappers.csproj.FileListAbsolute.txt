@@ -1,0 +1,15 @@
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\bin\Debug\net7.0\DynamicMappingSystem.Mappers.deps.json
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\bin\Debug\net7.0\DynamicMappingSystem.Mappers.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\bin\Debug\net7.0\DynamicMappingSystem.Mappers.pdb
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\bin\Debug\net7.0\DynamicMappingSystem.Core.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\bin\Debug\net7.0\DynamicMappingSystem.Models.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\bin\Debug\net7.0\DynamicMappingSystem.Core.pdb
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\bin\Debug\net7.0\DynamicMappingSystem.Models.pdb
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\DynamicMappingSystem.Mappers.csproj.AssemblyReference.cache
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\DynamicMappingSystem.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\DynamicMappingSystem.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\DynamicMappingSystem.Mappers.csproj.CopyComplete
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\DynamicMappingSystem.Mappers.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\refint\DynamicMappingSystem.Mappers.dll
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\DynamicMappingSystem.Mappers.pdb
+C:\Users\ayman\DIRS21\Dynamic-Mapping-System\src\DynamicMappingSystem.Mappers\obj\Debug\net7.0\ref\DynamicMappingSystem.Mappers.dll

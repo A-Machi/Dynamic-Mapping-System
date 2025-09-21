@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "FluentAssertions/8.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "DynamicMappingSystem.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
+        "compile": {
+          "bin/placeholder/DynamicMappingSystem.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DynamicMappingSystem.Core.dll": {}
+        }
+      },
+      "DynamicMappingSystem.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentAssertions": "8.6.0"
+        },
+        "compile": {
+          "bin/placeholder/DynamicMappingSystem.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DynamicMappingSystem.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentAssertions/8.6.0": {
+      "sha512": "h5tb0odkLRWuwjc5EhwHQZpZm7+5YmJBNn379tJPIK04FOv3tuOfhGZTPFSuj/MTgzfV6UlAjfbSEBcEGhGucQ==",
+      "type": "package",
+      "path": "fluentassertions/8.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE",
+        "fluentassertions.8.6.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
+    "DynamicMappingSystem.Core/1.0.0": {
+      "type": "project",
+      "path": "../DynamicMappingSystem.Core/DynamicMappingSystem.Core.csproj",
+      "msbuildProject": "../DynamicMappingSystem.Core/DynamicMappingSystem.Core.csproj"
+    },
+    "DynamicMappingSystem.Models/1.0.0": {
+      "type": "project",
+      "path": "../DynamicMappingSystem.Models/DynamicMappingSystem.Models.csproj",
+      "msbuildProject": "../DynamicMappingSystem.Models/DynamicMappingSystem.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "DynamicMappingSystem.Core >= 1.0.0",
+      "DynamicMappingSystem.Models >= 1.0.0",
+      "FluentAssertions >= 8.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ayman\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\DynamicMappingSystem.Mappers.csproj",
+      "projectName": "DynamicMappingSystem.Mappers",
+      "projectPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\DynamicMappingSystem.Mappers.csproj",
+      "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Core\\DynamicMappingSystem.Core.csproj": {
+              "projectPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Core\\DynamicMappingSystem.Core.csproj"
+            },
+            "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj": {
+              "projectPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
