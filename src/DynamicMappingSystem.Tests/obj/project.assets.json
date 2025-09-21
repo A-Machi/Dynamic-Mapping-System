@@ -5620,11 +5620,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Tests\\DynamicMappingSystem.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Tests\\DynamicMappingSystem.Tests.csproj",
       "projectName": "DynamicMappingSystem.Tests",
-      "projectPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Tests\\DynamicMappingSystem.Tests.csproj",
+      "projectPath": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Tests\\DynamicMappingSystem.Tests.csproj",
       "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Tests\\obj\\",
+      "outputPath": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5641,11 +5641,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Core\\DynamicMappingSystem.Core.csproj": {
-              "projectPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Core\\DynamicMappingSystem.Core.csproj"
+            "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Core\\DynamicMappingSystem.Core.csproj": {
+              "projectPath": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Core\\DynamicMappingSystem.Core.csproj"
             },
-            "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\DynamicMappingSystem.Mappers.csproj": {
-              "projectPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\DynamicMappingSystem.Mappers.csproj"
+            "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\DynamicMappingSystem.Mappers.csproj": {
+              "projectPath": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Mappers\\DynamicMappingSystem.Mappers.csproj"
             }
           }
         }

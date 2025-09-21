@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj": {}
+    "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj": {
+    "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj",
         "projectName": "DynamicMappingSystem.Models",
-        "projectPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj",
+        "projectPath": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\DynamicMappingSystem.Models.csproj",
         "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\obj\\",
+        "outputPath": "C:\\Users\\ayman\\DIRS21\\Dynamic-Mapping-System\\src\\DynamicMappingSystem.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayman\\AppData\\Roaming\\NuGet\\NuGet.Config",
