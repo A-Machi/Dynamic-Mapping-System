@@ -16,5 +16,5 @@ This project provides a flexible and extensible mapping system for converting da
 
 1. **Clone the repository**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/A-Machi/Dynamic-Mapping-System.git
    cd Dynamic-Mapping-System
