@@ -56,4 +56,76 @@ public class MappingTests
         res.CheckIn.Should().Be(DateTime.Parse(start));
         res.CheckOut.Should().Be(DateTime.Parse(end));
     }
+
+    [Fact]
+    public void Should_Throw_InvalidOperationException()
+    {
+        // Arrange
+        var mapHandler = new MapHandler();
+        mapHandler.Register(new GoogleToReservationMapper());
+
+        var googleRes = new GoogleReservation(
+            Guid.NewGuid().ToString(), 
+            Guid.NewGuid().ToString(), 
+            new DateTime(2025, 9, 21).ToString(), 
+            new DateTime(2025, 9, 30).ToString()
+        );
+
+        var unknownReservationType = Guid.NewGuid().ToString();
+
+        // Act
+        Action act = () => mapHandler.Map(googleRes, unknownReservationType, "Model.Reservation");
+
+        // Assert
+        act.Should()
+           .Throw<InvalidOperationException>()
+           .WithMessage($"No mapper registered for {unknownReservationType} -> Model.Reservation");
+    }
+
+    [Fact]
+    public void Should_Throw_ArgumentException_In_GoogleToReservationMapper()
+    {
+        // Arrange
+        var mapHandler = new MapHandler();
+        mapHandler.Register(new GoogleToReservationMapper());
+
+        var wrongObject = new Reservation(
+            Guid.NewGuid().ToString(),
+            Guid.NewGuid().ToString(),
+            new DateTime(2025, 9, 21),
+            new DateTime(2025, 9, 30)
+        );
+
+        // Act
+        Action act = () => mapHandler.Map(wrongObject, "Google.Reservation", "Model.Reservation");
+
+        // Assert
+        act.Should()
+           .Throw<ArgumentException>()
+           .WithMessage("Invalid data type");
+    }
+
+    [Fact]
+    public void Should_Throw_ArgumentException_In_ReservationToGoogleMapper()
+    {
+        // Arrange
+        var mapHandler = new MapHandler();
+        mapHandler.Register(new ReservationToGoogleMapper());
+
+        var wrongObject = new GoogleReservation(
+            Guid.NewGuid().ToString(),
+            Guid.NewGuid().ToString(),
+            new DateTime(2025, 9, 21).ToString(),
+            new DateTime(2025, 9, 30).ToString()
+        );
+
+        // Act
+        Action act = () => mapHandler.Map(wrongObject, "Model.Reservation", "Google.Reservation");
+
+        // Assert
+        act.Should()
+           .Throw<ArgumentException>()
+           .WithMessage("Invalid data type");
+    }
+
 }
